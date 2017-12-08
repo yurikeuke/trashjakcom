@@ -1,0 +1,109 @@
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="1dp"
+    android:layout_height="wrap_content"
+    android:configChanges = "orientation"
+    android:screenOrientation = "portrait"
+    android:padding="10dp"
+    android:clickable="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="3dp"
+            android:paddingBottom="5dp"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="9dp"
+                android:layout_marginRight="9dp"
+                android:id="@+id/user_profile"
+                android:visibility="gone"
+                />
+
+            <trash.jak.id.go.widget.CircularTextView
+                android:id="@+id/txt_circle"
+                android:layout_height="50dp"
+                android:layout_width="50dp"
+                android:text="X"
+                android:textColor="#fff"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center_vertical|center_horizontal"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="2dp"
+                android:layout_weight="1">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:gravity="bottom"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txt_plat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.7"
+                        tools:text="nama"
+                        android:textColor="#424242"
+                        android:textSize="18sp"
+                        android:layout_marginRight="3dp"
+                        android:singleLine="true"
+                        android:textStyle="normal|bold"
+                        android:fontFamily="monospace" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/txt_tempat_tugas"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:layout_marginTop="1dp"
+                        android:textSize="13.5sp"
+                        tools:text="Jl. - String"
+                        android:textColor="#000"
+                        android:fontFamily="serif" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <RatingBar
+                        android:id="@+id/ratting"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:textColor="#9E9E9E"
+                        android:layout_marginTop="2dp"
+                        android:fontFamily="serif" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

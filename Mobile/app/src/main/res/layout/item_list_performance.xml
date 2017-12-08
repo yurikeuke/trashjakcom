@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/fragmentumum"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:configChanges = "orientation"
+    android:screenOrientation = "portrait"
+    android:background="#fff"
+    android:orientation="vertical">
+    <include layout="@layout/toolbar"/>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                android:focusable="true"
+                android:clickable="true"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior"  />
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fabAddBuilding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:paddingBottom="200dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="20dp"
+            android:clickable="true"
+            app:backgroundTint="?attr/colorPrimary"
+            app:fabSize="normal"
+            android:visibility="gone"
+            app:srcCompat="@drawable/plus"/>
+
+    </FrameLayout>
+
+</LinearLayout>

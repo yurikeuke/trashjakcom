@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Trash Jak</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+
+    <!--Registration Online-->
+    <string name="ro_data_diri">DATA DIRI</string>
+    <string name="ro_name_title">Nama</string>
+    <string name="ro_no_reg_title">No. Registrasi:</string>
+    <string name="ro_nik_title">NIK</string>
+    <string name="ro_nik_mean">NIK adalah nomor induk kependudukan atau nomor yang tertera pada KTP anda yang berjumlah 16 digit.</string>
+    <string name="ro_kontak_title">KONTAK</string>
+    <string name="ro_hp_title">Handphone</string>
+    <string name="ro_email_title">Email</string>
+    <string name="ro_no_email">Silahkan isi alamat email anda!</string>
+    <string name="ro_no_nama">Silahkan isi nama anda!</string>
+    <string name="ro_no_hp">Silahkan isi nomor telepon anda!</string>
+    <string name="ro_no_nik">Silahkan isi NIK anda!</string>
+    <string name="jz_address">Alamat</string>
+    <string name="via_choise">Pilih VIA</string>
+    <string name="jnspenerimaan_choise">Pilih Jenis Penerimaan</string>
+    <string name="no_internet1">Tidak Ada Koneksi Internet</string>
+    <string name="no_internet2">Anda tidak memiliki koneksi internet.</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="exit_app">Keluar Aplikasi</string>
+    <string name="ask_exit_app">Anda yakin ingin keluar aplikasi?</string>
+    <string name="muzaki">Muzaki</string>
+    <string name="dialog_tag">dialog</string>
+    <string name="version_id">1</string>
+
+
+
+    <string-array name="via_values">
+    <item>1.1.01.01.08 - Kas Konter Gerai</item>
+    <item>1.1.01.07.09 - EDC Gerai </item>
+    </string-array>
+
+    <string-array name="jnsPenerimaan_values">
+        <item>Zakat Maal</item>
+        <item>Zakat Profesi</item>
+        <item>Zakat Fitrah</item>
+        <item>Infak</item>
+        <item>Kurban (Infak Terikat)</item>
+    </string-array>
+
+
+    </resources>

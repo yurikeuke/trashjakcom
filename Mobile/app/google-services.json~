@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "622283649728",
+    "firebase_url": "https://simba-lite.firebaseio.com",
+    "project_id": "simba-lite",
+    "storage_bucket": "simba-lite.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:622283649728:android:8fddcb0023d88639",
+        "android_client_info": {
+          "package_name": "trash.jak.id.go"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "622283649728-2rjgfh24eafatse4gsideg3to31rhjjn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "trash.jak.id.go",
+            "certificate_hash": "35816cecff2736ef1e3db396535b15863fc8c72d"
+          }
+        },
+        {
+          "client_id": "622283649728-rtgdi3tiqpadglvnfhe54i492hq6m2op.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "trash.jak.id.go",
+            "certificate_hash": "0e7a27dbd071fc69a73be694a17291f34fa9ee4b"
+          }
+        },
+        {
+          "client_id": "622283649728-nlpaqo5uh4esq2u118175ghpment3cs0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1cgqypHZCq07UBJ8rxtkVOa5okKet_wI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "622283649728-nlpaqo5uh4esq2u118175ghpment3cs0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

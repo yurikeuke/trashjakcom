@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_scan"
+    android:gravity="center|bottom"
+    >
+    <LinearLayout
+        android:id="@+id/fotolay"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+       >
+    <ImageView
+        android:id="@+id/imgFoto"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/textNrmJudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:gravity="center|bottom">
+        <TextView
+            android:id="@+id/id_mustahik_foto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="No Number"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            />
+
+    <LinearLayout
+        android:id="@+id/buttons_save"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_above="@id/textNrmJudul">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/uploadButton"
+            android:text="Upload"
+            style="@style/btnStyleShakespeareYellow"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancelButton"
+            android:text="Cancel"
+            android:layout_marginLeft="8dp"
+            style="@style/btnStyleCancel"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
