@@ -26,7 +26,7 @@ public final class Config {
     |-----------------------------------------------------------------------------------------------
     */
 
-    public static final String url_Server_Alpha = "trashjak.com";
+    public static final String url_Server_Alpha = "alpha.simba.baznas.go.id";
 
         /*
     |-----------------------------------------------------------------------------------------------
@@ -34,7 +34,7 @@ public final class Config {
     |-----------------------------------------------------------------------------------------------
     */
 
-    public static final String url_Server = "trashjak.com";
+    public static final String url_Server = "simba.baznas.go.id";
 
     /*
     |-----------------------------------------------------------------------------------------------
@@ -42,7 +42,7 @@ public final class Config {
     |-----------------------------------------------------------------------------------------------
     */
 
-    public static final String url_kas_masuk = "trashjak.com";
+    public static final String url_kas_masuk = "simba.baznas.go.id";
 
         /*
     |-----------------------------------------------------------------------------------------------
@@ -50,7 +50,7 @@ public final class Config {
     |-----------------------------------------------------------------------------------------------
     */
 
-    public static final String url_api= "trashjak.com";
+    public static final String url_api= "api.baznas.go.id";
 
     /*
     |-----------------------------------------------------------------------------------------------
@@ -64,7 +64,7 @@ public final class Config {
     | Database path
     |-----------------------------------------------------------------------------------------------
     */
-    public static final String DATABASE_PATH = "/data/data/trashjak.com/databases/";
+    public static final String DATABASE_PATH = "/data/data/lite.simba.id.go.baznas.simbalite/databases/";
 
     /*
     |-----------------------------------------------------------------------------------------------
