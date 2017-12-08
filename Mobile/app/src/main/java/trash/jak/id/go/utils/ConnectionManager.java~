@@ -15,7 +15,13 @@ public class ConnectionManager {
    */
     public static final String CM_URL_LOGIN             = Config.makeUrlString("api/login_mobile/");
     public static final String CM_FIREBASE              = Config.makeUrlString("api/set_firebase_key");
-    public static final String CM_UPLOAD                = Config.makeUrlStringAlpha("api/supload/");
+    public static final String CM_UPLOAD                = Config.makeUrlStringAlpha("api/aH4r164nt3Ng719bffae3e130/");
+    public static final String CM_GET_LIST_MUSTAHIK     = Config.makeUrlString("v1/rakornas/firebase/");
+    public static final String CM_GET_LIST_MUZAKI       = Config.makeUrlString("api/cFAaD3eBdF780e1c93d5eAdFf4aE4/");
+    public static final String CM_FORM_KAS_MASUK        = Config.makeUrlStringKasMasuk("api/ajax_transaksi_simpan");
+    public static final String CM_FORM_ADD_MUZAKI       = Config.makeUrlStringKasMasuk("api/ajax_muzaki_register");
+    public static final String tesssss                  = Config.makeUrlStringKasMasuk("/api/sdsdfsdfsdfsdfsdfsdfsdfsdfsdfsdfsdf/");
+    public static final String CM_GET_USER_ONLINE       = Config.makeUrlStringApi("v1/dashboard/nasional/ajax_users_online.php");
     public static final String CM_GET_NEWS              = "http://myshaf.com/alif/newstrash.php";
     public static final String CM_GET_VERSION           = "http://myshaf.com/alif/versiontrashjak.php";
     public static final String CM_URL_TRACKLOG          = Config.makeUrlStringApi("v1/tracklog/add.php");
